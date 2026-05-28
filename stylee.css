@@ -1,0 +1,210 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0d1117;
+    color:#ffffff;
+    font-family:Segoe UI, sans-serif;
+    padding:40px;
+    line-height:1.7;
+}
+
+/* HERO */
+
+h1{
+    font-size:70px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+body > p:first-of-type{
+    color:#9ca3af;
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+/* BUTTON */
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+    font-weight:600;
+}
+
+button:hover{
+    background:#3b82f6;
+    transform:translateY(-2px);
+}
+
+/* SECTION */
+
+.about-me,
+.skills,
+.project,
+.experience,
+footer,
+body > div:last-of-type{
+
+    background:#161b22;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    margin-top:35px;
+
+    border:1px solid #262c36;
+}
+
+/* TITLES */
+
+h2{
+
+    font-size:32px;
+
+    margin-bottom:20px;
+
+    color:#ffffff;
+}
+
+h3{
+
+    margin-top:15px;
+
+    margin-bottom:10px;
+
+    color:#d1d5db;
+}
+
+/* TEXT */
+
+p{
+
+    color:#b7c0ce;
+}
+
+/* LIST */
+
+ul{
+
+    padding-left:20px;
+
+    margin-top:10px;
+}
+
+li{
+
+    margin-bottom:8px;
+
+    color:#cfd8e3;
+}
+
+/* PROJECT CARDS */
+
+.project{
+
+display:flex;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+align-items:flex-start;
+
+}
+
+.project-card{
+
+flex:1;
+
+min-width:280px;
+
+background:#0f141b;
+
+padding:25px;
+
+border-radius:15px;
+
+border:1px solid #2b3340;
+
+transition:.3s;
+
+}
+
+.project-card:hover{
+
+transform:translateY(-5px);
+
+border-color:#2563eb;
+
+}
+
+/* CONTACT */
+
+body > div:last-of-type ul{
+
+list-style:none;
+
+padding-left:0;
+
+}
+
+/* FOOTER */
+
+footer{
+
+margin-top:50px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+flex-wrap:wrap;
+
+}
+
+footer a{
+
+color:white;
+
+text-decoration:none;
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+h1{
+
+font-size:45px;
+
+}
+
+.project{
+
+flex-direction:column;
+
+}
+
+footer{
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+}
